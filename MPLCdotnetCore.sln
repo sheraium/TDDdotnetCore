@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.28010.2048
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MPLC.Core", "MPLC.Core\MPLC.Core.csproj", "{3E2CB71D-DED9-4574-AFA6-E4E0D5A931F2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MPLC.Core.UnitTests", "MPLC.Core.UnitTests\MPLC.Core.UnitTests.csproj", "{AD54A108-B830-40F0-82DF-B951F40D5EC6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{3E2CB71D-DED9-4574-AFA6-E4E0D5A931F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3E2CB71D-DED9-4574-AFA6-E4E0D5A931F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3E2CB71D-DED9-4574-AFA6-E4E0D5A931F2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AD54A108-B830-40F0-82DF-B951F40D5EC6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD54A108-B830-40F0-82DF-B951F40D5EC6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD54A108-B830-40F0-82DF-B951F40D5EC6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD54A108-B830-40F0-82DF-B951F40D5EC6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
