@@ -23,7 +23,7 @@ namespace MPLC.Core.DataType
 
         public bool IsOn()
         {
-            throw new System.NotImplementedException();
+            return _mplc.GetBit(_address);
         }
     }
 }
