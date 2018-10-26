@@ -1,4 +1,4 @@
-namespace MPLC.Core.UnitTests
+namespace MPLC.Core
 {
     public interface IMPLCProvider
     {

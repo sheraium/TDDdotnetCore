@@ -1,4 +1,5 @@
 using Microsoft.VisualStudio.TestTools.UnitTesting;
+using MPLC.Core.DataType;
 using NSubstitute;
 
 namespace MPLC.Core.UnitTests

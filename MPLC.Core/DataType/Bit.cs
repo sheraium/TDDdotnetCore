@@ -1,4 +1,4 @@
-namespace MPLC.Core.UnitTests
+namespace MPLC.Core.DataType
 {
     public class Bit
     {
