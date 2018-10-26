@@ -25,5 +25,10 @@ namespace MPLC.Core.DataType
         {
             return _mplc.GetBit(_address);
         }
+
+        public bool IsOff()
+        {
+            throw new System.NotImplementedException();
+        }
     }
 }

@@ -41,6 +41,18 @@ namespace MPLC.Core.UnitTests
             Assert.IsTrue(isOn);
         }
 
+        [TestMethod]
+        public void IsOff()
+        {
+            var mplc = GetMPLC();
+            var bit = new Bit(mplc, "B100");
+            mplc.GetBit(Arg.Is("B100")).Returns(false);
+
+            var isOff = bit.IsOff();
+
+            Assert.IsTrue(isOff);
+        }
+
         private static IMPLCProvider GetMPLC()
         {
             var mplc = Substitute.For<IMPLCProvider>();
