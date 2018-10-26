@@ -15,5 +15,10 @@ namespace MPLC.Core.DataType
         {
             _mplc.SetBitOn(_address);
         }
+
+        public void SetOff()
+        {
+            throw new System.NotImplementedException();
+        }
     }
 }
