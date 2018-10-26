@@ -1,4 +1,5 @@
 using Microsoft.VisualStudio.TestTools.UnitTesting;
+using NSubstitute;
 
 namespace MPLC.Core.UnitTests
 {
@@ -8,17 +9,12 @@ namespace MPLC.Core.UnitTests
         [TestMethod]
         public void SetOn()
         {
-            var bit = new Bit();
+            var mplc = Substitute.For<IMPLCProvider>();
+            var bit = new Bit(mplc, "B100");
 
             bit.SetOn();
-        }
-    }
 
-    public class Bit
-    {
-        public void SetOn()
-        {
-            throw new System.NotImplementedException();
+            mplc.Received().SetBitOn(Arg.Is("B100"));
         }
     }
 }
