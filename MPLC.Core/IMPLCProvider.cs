@@ -4,5 +4,6 @@ namespace MPLC.Core
     {
         void SetBitOn(string address);
         void SetBitOff(string address);
+        bool GetBit(string address);
     }
 }

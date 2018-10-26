@@ -18,6 +18,11 @@ namespace MPLC.Core.DataType
 
         public void SetOff()
         {
+            _mplc.SetBitOff(_address);
+        }
+
+        public bool IsOn()
+        {
             throw new System.NotImplementedException();
         }
     }
