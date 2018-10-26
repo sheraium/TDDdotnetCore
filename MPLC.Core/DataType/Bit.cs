@@ -28,7 +28,7 @@ namespace MPLC.Core.DataType
 
         public bool IsOff()
         {
-            throw new System.NotImplementedException();
+            return !_mplc.GetBit(_address);
         }
     }
 }
